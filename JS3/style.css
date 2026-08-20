@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 8px;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 34px;
+    margin: 20px 0 24px 0;
+}
+
+.buttons {
+    margin-bottom: 15px;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 2px 7px;
+    margin-right: 3px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #551a8b;
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    width: 875px;
+    margin-left: 52px;
+}
+
+th {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 6px 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    border-bottom: 1px solid #333;
+    padding: 9px 10px;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+    width: 70px;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 70px;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 570px;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 180px;
+}
+
+.completed {
+    color: green;
+    font-weight: bold;
+}
+
+.not-completed {
+    color: red;
+    font-weight: bold;
+}
