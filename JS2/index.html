@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Javascript Web Output #2</h1>
+
+    <div class="form-container"></div>
+        <div class="form-row">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName">
+        </div>
+
+        <div class="form-row">
+            <label for="middleName">Middle Name:</label>
+            <input type="text" id="middleName">
+        </div>
+
+        <div class="form-row">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName">
+        </div>
+
+        <div class="form-row">
+            <label for="age">Age:</label>
+            <input type="number" id="age">
+        </div>
+
+        <div class="buttons">
+            <button id="insertBtn" onclick="insertRecord()">Insert</button>
+            <button onclick="clearForm()">Clear</button>
+        </div>
+    </div>
+
+    <fieldset>
+        <legend>Records</legend>
+
+        <div id="records"></div>
+    </fieldset>
+
+    <div class="bottom-controls">
+        <button onclick="clearRecords()">Clear Records</button>
+
+        <span>Sort by:</span>
+
+        <select id="sortField" onchange="sortRecords()">
+            <option value="">Please select</option>
+            <option value="firstName">First Name</option>
+            <option value="middleName">Middle Name</option>
+            <option value="lastName">Last Name</option>
+            <option value="age">Age</option>
+        </select>
+
+        <select id="sortOrder" onchange="sortRecords()">
+            <option value="">Please select</option>
+            <option value="asc">A-Z</option>
+            <option value="desc">Z-A</option>
+        </select>
+
+        <button onclick="saveToLocalStorage()">Save to Local Storage</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
