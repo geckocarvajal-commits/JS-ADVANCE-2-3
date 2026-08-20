@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 34px;
+    margin: 20px 0 24px 0;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.form-row label {
+    width: 130px;
+}
+
+.form-row input {
+    width: 150px;
+    height: 20px;
+    padding: 1px 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin-left: 130px;
+    margin-top: 18px;
+}
+
+button,
+select {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+button {
+    padding: 2px 7px;
+}
+
+fieldset {
+    min-height: 25px;
+    margin-top: 25px;
+    padding: 12px 14px;
+}
+
+legend {
+    font-size: 16px;
+    padding: 0 2px;
+}
+
+#records {
+    width: 500px;
+}
+
+.no-records {
+    color: red;
+    font-size: 13px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 480px;
+}
+
+th,
+td {
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    padding: 9px 10px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+td:nth-child(1) {
+    width: 100px;
+}
+
+td:nth-child(2) {
+    width: 120px;
+}
+
+td:nth-child(3) {
+    width: 100px;
+}
+
+td:nth-child(4) {
+    width: 40px;
+    text-align: center;
+}
+
+td:nth-child(5) {
+    width: 130px;
+    white-space: nowrap;
+}
+
+td button {
+    margin-right: 3px;
+}
+
+.bottom-controls {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
